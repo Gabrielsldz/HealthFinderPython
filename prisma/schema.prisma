@@ -1,0 +1,54 @@
+generator client {
+  provider             = "prisma-client-py"
+  interface            = "asyncio"
+  recursive_type_depth = 5
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgres://postgres:1234@localhost:5432/saudedb"
+}
+model User {
+  id       String @id @default(uuid())
+  name     String
+  email    String @unique
+  password String
+}
+model estabelecimento {
+  codigo_cnes                                      Int     @id
+  numero_cnpj_entidade                             String? // Optional
+  nome_razao_social                                String? // Optional
+  nome_fantasia                                    String? // Optional
+  natureza_organizacao_entidade                    String? // Optional
+  tipo_gestao                                      String? // Optional
+  descricao_nivel_hierarquia                       String? // Optional
+  descricao_esfera_administrativa                  String? // Optional
+  codigo_tipo_unidade                              Int
+  codigo_cep_estabelecimento                       String? // Optional
+  endereco_estabelecimento                         String? // Optional
+  numero_estabelecimento                           String? // Optional
+  bairro_estabelecimento                           String? // Optional
+  numero_telefone_estabelecimento                  String? // Optional
+  latitude_estabelecimento_decimo_grau             Float?
+  longitude_estabelecimento_decimo_grau            Float?
+  endereco_email_estabelecimento                   String? // Optional
+  numero_cnpj                                      String? // Optional
+  codigo_identificador_turno_atendimento           String? // Optional
+  descricao_turno_atendimento                      String? // Optional
+  estabelecimento_faz_atendimento_ambulatorial_sus String? // Optional
+  codigo_estabelecimento_saude                     String? // Optional
+  codigo_uf                                        Int
+  codigo_municipio                                 Int
+  descricao_natureza_juridica_estabelecimento      String? // Optional
+  codigo_motivo_desabilitacao_estabelecimento      String? // Optional
+  estabelecimento_possui_centro_cirurgico          Int?
+  estabelecimento_possui_centro_obstetrico         Int?
+  estabelecimento_possui_centro_neonatal           Int?
+  estabelecimento_possui_atendimento_hospitalar    Int?
+  estabelecimento_possui_servico_apoio             Int?
+  estabelecimento_possui_atendimento_ambulatorial  Int?
+  codigo_atividade_ensino_unidade                  String? // Optional
+  codigo_natureza_organizacao_unidade              String? // Optional
+  codigo_nivel_hierarquia_unidade                  String? // Optional
+  codigo_esfera_administrativa_unidade             String? // Optional
+}

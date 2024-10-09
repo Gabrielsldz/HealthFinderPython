@@ -1,0 +1,42 @@
+Centro de Imunização - 85
+Central de Abastecimento - 84
+Polo de Prevenção de Doenças e Agravos e Promoção da Saúde - 83
+Central de Gestão em Saúde - 68
+Cooperativa ou Empresa de Cessão de Trabalhadores na Saúde - 60
+Pronto Atendimento - 73
+Laboratório Central de Saúde Pública (LACEN) - 67
+Unidade de Vigilância em Saúde - 50
+Hospital Especializado - 7
+Hospital Geral - 5
+Pronto Socorro Especializado - 21
+Pronto Socorro Geral - 20
+Unidade Mista - 15
+Hospital/Dia - Isolado - 62
+Centro de Parto Normal - Isolado - 61
+Unidade de Apoio Diagnóstico e Terapia (SADT Isolado) - 39
+Farmácia - 43
+Central de Regulação de Serviços de Saúde - 64
+Clínica/Centro de Especialidade - 36
+Unidade Móvel Fluvial - 32
+Unidade Móvel de Nível Pré-Hospitalar na Área de Urgência - 42
+Unidade Móvel Terrestre - 40
+Consultório Isolado - 22
+Policlínica - 4
+Centro de Saúde/Unidade Básica - 2
+Posto de Saúde - 1
+Unidade de Atenção à Saúde Indígena - 72
+Centro de Apoio à Saúde da Família - 71
+Centro de Atenção Psicossocial - 70
+Centro de Atenção Hemoterapia e/ou Hematológica - 69
+Central de Regulação Médica das Urgências - 76
+Serviço de Atenção Domiciliar Isolado (Home Care) - 77
+Telemedicina - 75
+Polo Academia da Saúde - 74
+Unidade de Atenção em Regime Residencial - 78
+Central de Notificação, Captação e Distribuição de Órgãos Estadual - 82
+Oficina Ortopédica - 79
+Central de Regulação do Acesso - 81
+Laboratório de Saúde Pública - 80
+
+
+
